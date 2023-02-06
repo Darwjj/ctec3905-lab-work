@@ -1,0 +1,63 @@
+  nav {
+    display: flex;
+    flex-basis: 15vw;
+    flex-direction: column;
+    background-color: orange;
+    flex-shrink: 0
+  }
+  
+  nav a {
+    background-color: black;
+    color: beige;
+    padding: 0.25em 0.5em;
+    margin: 1em;
+    text-decoration: none;
+     /* try different values - e.g. 3s */
+     transition: background-color 0.7s;
+  }
+
+
+  nav a:hover {
+    background-color: orange;
+  }
+
+  nav, main {
+    box-sizing: border-box;
+  }
+
+  header, section, main{
+    overflow: auto;
+  }
+  header {
+    background-color: orange;
+  }
+
+  header, section {
+    padding: 0 0.5em;
+
+  }
+
+  section {
+    background-color: orange;
+    color: beige;
+    overflow: auto;
+  }
+  
+  main {
+    flex-direction: row-reverse;
+    display: flex
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #target {
+    background-color: orange;
+    color: black;
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 0 0.5em;
+
+  }
+  
